@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2798108A2242A26200348876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279810892242A26200348876 /* AppDelegate.swift */; };
-		2798108C2242A26200348876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798108B2242A26200348876 /* ViewController.swift */; };
 		2798108F2242A26200348876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2798108D2242A26200348876 /* Main.storyboard */; };
 		279810922242A26200348876 /* ColorPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 279810902242A26200348876 /* ColorPicker.xcdatamodeld */; };
 		279810942242A26300348876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279810932242A26300348876 /* Assets.xcassets */; };
 		279810972242A26300348876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279810952242A26300348876 /* LaunchScreen.storyboard */; };
 		279810A22242A26300348876 /* ColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279810A12242A26300348876 /* ColorPickerTests.swift */; };
 		279810AD2242A26300348876 /* ColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279810AC2242A26300348876 /* ColorPickerUITests.swift */; };
+		279810BB2242A29400348876 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279810BA2242A29400348876 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		279810862242A26200348876 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279810892242A26200348876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2798108B2242A26200348876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2798108E2242A26200348876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279810912242A26200348876 /* ColorPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorPicker.xcdatamodel; sourceTree = "<group>"; };
 		279810932242A26300348876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		279810A82242A26300348876 /* ColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279810AC2242A26300348876 /* ColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUITests.swift; sourceTree = "<group>"; };
 		279810AE2242A26300348876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279810BA2242A29400348876 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				279810892242A26200348876 /* AppDelegate.swift */,
-				2798108B2242A26200348876 /* ViewController.swift */,
 				2798108D2242A26200348876 /* Main.storyboard */,
 				279810932242A26300348876 /* Assets.xcassets */,
 				279810952242A26300348876 /* LaunchScreen.storyboard */,
 				279810982242A26300348876 /* Info.plist */,
 				279810902242A26200348876 /* ColorPicker.xcdatamodeld */,
+				279810BA2242A29400348876 /* ColorPickerViewController.swift */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2798108C2242A26200348876 /* ViewController.swift in Sources */,
 				279810922242A26200348876 /* ColorPicker.xcdatamodeld in Sources */,
+				279810BB2242A29400348876 /* ColorPickerViewController.swift in Sources */,
 				2798108A2242A26200348876 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
