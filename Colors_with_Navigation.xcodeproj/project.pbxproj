@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		279810862242A26200348876 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279810862242A26200348876 /* Colors_with_Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors_with_Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279810892242A26200348876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2798108E2242A26200348876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279810912242A26200348876 /* ColorPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorPicker.xcdatamodel; sourceTree = "<group>"; };
 		279810932242A26300348876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279810962242A26300348876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279810982242A26300348876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2798109D2242A26300348876 /* ColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2798109D2242A26300348876 /* Colors_with_NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colors_with_NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279810A12242A26300348876 /* ColorPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerTests.swift; sourceTree = "<group>"; };
 		279810A32242A26300348876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279810A82242A26300348876 /* ColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279810A82242A26300348876 /* Colors_with_NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colors_with_NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279810AC2242A26300348876 /* ColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUITests.swift; sourceTree = "<group>"; };
 		279810AE2242A26300348876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279810BA2242A29400348876 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		279810872242A26200348876 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				279810862242A26200348876 /* ColorPicker.app */,
-				2798109D2242A26300348876 /* ColorPickerTests.xctest */,
-				279810A82242A26300348876 /* ColorPickerUITests.xctest */,
+				279810862242A26200348876 /* Colors_with_Navigation.app */,
+				2798109D2242A26300348876 /* Colors_with_NavigationTests.xctest */,
+				279810A82242A26300348876 /* Colors_with_NavigationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		279810852242A26200348876 /* ColorPicker */ = {
+		279810852242A26200348876 /* Colors_with_Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279810B12242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPicker" */;
+			buildConfigurationList = 279810B12242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_Navigation" */;
 			buildPhases = (
 				279810822242A26200348876 /* Sources */,
 				279810832242A26200348876 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = ColorPicker;
+			name = Colors_with_Navigation;
 			productName = ColorPicker;
-			productReference = 279810862242A26200348876 /* ColorPicker.app */;
+			productReference = 279810862242A26200348876 /* Colors_with_Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2798109C2242A26300348876 /* ColorPickerTests */ = {
+		2798109C2242A26300348876 /* Colors_with_NavigationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279810B42242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPickerTests" */;
+			buildConfigurationList = 279810B42242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_NavigationTests" */;
 			buildPhases = (
 				279810992242A26300348876 /* Sources */,
 				2798109A2242A26300348876 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				2798109F2242A26300348876 /* PBXTargetDependency */,
 			);
-			name = ColorPickerTests;
+			name = Colors_with_NavigationTests;
 			productName = ColorPickerTests;
-			productReference = 2798109D2242A26300348876 /* ColorPickerTests.xctest */;
+			productReference = 2798109D2242A26300348876 /* Colors_with_NavigationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		279810A72242A26300348876 /* ColorPickerUITests */ = {
+		279810A72242A26300348876 /* Colors_with_NavigationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279810B72242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPickerUITests" */;
+			buildConfigurationList = 279810B72242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_NavigationUITests" */;
 			buildPhases = (
 				279810A42242A26300348876 /* Sources */,
 				279810A52242A26300348876 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				279810AA2242A26300348876 /* PBXTargetDependency */,
 			);
-			name = ColorPickerUITests;
+			name = Colors_with_NavigationUITests;
 			productName = ColorPickerUITests;
-			productReference = 279810A82242A26300348876 /* ColorPickerUITests.xctest */;
+			productReference = 279810A82242A26300348876 /* Colors_with_NavigationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,18 +196,21 @@
 				TargetAttributes = {
 					279810852242A26200348876 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					2798109C2242A26300348876 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 279810852242A26200348876;
 					};
 					279810A72242A26300348876 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 279810852242A26200348876;
 					};
 				};
 			};
-			buildConfigurationList = 279810812242A26200348876 /* Build configuration list for PBXProject "ColorPicker" */;
+			buildConfigurationList = 279810812242A26200348876 /* Build configuration list for PBXProject "Colors_with_Navigation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				279810852242A26200348876 /* ColorPicker */,
-				2798109C2242A26300348876 /* ColorPickerTests */,
-				279810A72242A26300348876 /* ColorPickerUITests */,
+				279810852242A26200348876 /* Colors_with_Navigation */,
+				2798109C2242A26300348876 /* Colors_with_NavigationTests */,
+				279810A72242A26300348876 /* Colors_with_NavigationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		2798109F2242A26300348876 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 279810852242A26200348876 /* ColorPicker */;
+			target = 279810852242A26200348876 /* Colors_with_Navigation */;
 			targetProxy = 2798109E2242A26300348876 /* PBXContainerItemProxy */;
 		};
 		279810AA2242A26300348876 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 279810852242A26200348876 /* ColorPicker */;
+			target = 279810852242A26200348876 /* Colors_with_Navigation */;
 			targetProxy = 279810A92242A26300348876 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,7 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -483,9 +486,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPicker.app/ColorPicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors_with_Navigation.app/Colors_with_Navigation";
 			};
 			name = Debug;
 		};
@@ -504,9 +507,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPicker.app/ColorPicker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors_with_Navigation.app/Colors_with_Navigation";
 			};
 			name = Release;
 		};
@@ -524,7 +527,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPickerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ColorPicker;
 			};
@@ -544,7 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ColorPickerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ColorPicker;
 			};
@@ -553,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		279810812242A26200348876 /* Build configuration list for PBXProject "ColorPicker" */ = {
+		279810812242A26200348876 /* Build configuration list for PBXProject "Colors_with_Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279810AF2242A26300348876 /* Debug */,
@@ -562,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279810B12242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPicker" */ = {
+		279810B12242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279810B22242A26300348876 /* Debug */,
@@ -571,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279810B42242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPickerTests" */ = {
+		279810B42242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_NavigationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279810B52242A26300348876 /* Debug */,
@@ -580,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279810B72242A26300348876 /* Build configuration list for PBXNativeTarget "ColorPickerUITests" */ = {
+		279810B72242A26300348876 /* Build configuration list for PBXNativeTarget "Colors_with_NavigationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279810B82242A26300348876 /* Debug */,
